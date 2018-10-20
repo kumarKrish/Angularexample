@@ -1,0 +1,9 @@
+
+<ul class="employees">
+  <li *ngFor="let employee of emps" (click)="onSelect(employee)">
+    <span class="badge">{{employee.id}}</span> {{employee.name}}
+  </li>
+</ul>
+
+
+
